@@ -1,2 +1,44 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+  <div class="row bg-body pt-5 pb-5">
+    <div class="container-fluid bg-body">
+      <div class="container">
+            <div class="header">
+            <h2>Contact</h2>
+            </div>
+            <div class="text mb-4">
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nulla justo. Aenean porta eget tellus et egestas. Donec laoreet a turpis sed rutrum</span>
+            <span>Aenean mattis aliquam sapien, at hendrerit ipsum. Fusce tempor fermentum turpis, at gravida massa tincidunt ac. Suspendisse porta velit arcu, vel rhoncus risus sodales in.</span>
+            </div>
+      </div>
+      <div class="container bg-light col-8 border border-2 rounded">
+        <div class="row d-flex justify-content-end col-12">
+          <form class="d-flex justify-content-end col-10 mt-3 mb-3">
+          <h6 class="col-2"><strong>Your email</strong></h6>
+          <label for="emailForm" class="form-label"></label>
+          <input type="email" class="form-control" id="emailForm" placeholder="Your email">
+          </form>
+        </div>
+        <div class="row d-flex justify-content-end col-12">
+          <form class="d-flex justify-content-end col-10 mt-1 mb-3">
+          <h6 class="col-2"><strong>Your message</strong></h6>
+          <textarea name="user-message" id="user-message" class="form-control" cols="4" rows="4" placeholder="Please enter your message here..."></textarea>
+          </form>
+        </div>
+        <div class="row d-flex justify-content-end col-12"></div>
+          <form class="d-flex justify-content-end col-12 pe-4 pb-3">
+          <button type="button" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
